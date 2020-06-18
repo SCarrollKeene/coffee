@@ -1,0 +1,25 @@
+:root {
+    --color-primary: #008080;
+    --color-secondary: #00b9b9;
+    --color-tertiary: rgb(0, 230, 230);
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    --color-text: #333333;
+
+    --box-shadow: 0 2rem 6rem rgba(0,0,0,.6); 
+}
+
+/* Global Reset Styling */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
